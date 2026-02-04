@@ -6,7 +6,7 @@ A mobile application built with React Native and Expo that tests your knowledge 
 
 ## 💾 Download
 
-[Download the latest APK here.](./PokemonSoundQuiz.apk)
+[Download the latest APK here.](https://github.com/criix23/Android-Pokemon-Quiz-App/releases/tag/1.0)
 
 
 ## 📜 Description

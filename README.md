@@ -2,6 +2,14 @@
 
 A mobile application built with React Native and Expo that tests your knowledge of Pokémon cries. Listen to a cry and guess which Pokémon it belongs to!
 
+## 📷 Screenshots
+![Login](assets/images/LoginPage.png)
+![Home](assets/images/HomePage.png)
+![RightAnswer](assets/images/RightAnswer.png)
+![WrongAnswer](assets/images/WrongAnswer.png)
+![Profile](assets/images/ProfilePage.png)
+![Leaderboard](assets/images/LeaderboardPage.png)
+
 ## 💾 Download
 
 [Download the latest APK here.](https://github.com/criix23/Android-Pokemon-Quiz-App/releases/tag/1.0)

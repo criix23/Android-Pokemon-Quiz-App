@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "Pokemon Sound Quiz",
+    "slug": "pokemon-sound-quiz",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/pokeball.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-av"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "android": {
+      "package": "com.ianhoch2.pokemonsoundquiz",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/pokeball.png",
+        "backgroundColor": "#14141E"
+      },
+      "permissions": [
+        "INTERNET",
+        "ACCESS_NETWORK_STATE",
+        "MODIFY_AUDIO_SETTINGS"
+      ],
+      "softwareKeyboardLayoutMode": "pan",
+      "allowBackup": true,
+      "jsEngine": "hermes"
+    },
+    "sdkVersion": "52.0.0",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "ba3a4b25-1af7-4dad-beb2-92d9450863d3"
+      }
+    }
+  }
+}

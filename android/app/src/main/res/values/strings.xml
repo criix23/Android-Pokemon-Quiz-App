@@ -1,0 +1,4 @@
+<resources>
+  <string name="app_name">Pokemon Sound Quiz</string>
+  <string name="expo_system_ui_user_interface_style" translatable="false">automatic</string>
+</resources>

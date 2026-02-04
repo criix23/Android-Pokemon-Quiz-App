@@ -1,0 +1,39 @@
+{
+  "build": {
+    "preview": {
+      "android": {
+        "buildType": "apk",
+        "gradleCommand": ":app:assembleRelease",
+        "withoutCredentials": true,
+        "cache": {
+          "disabled": true
+        },
+        "env": {
+          "GRADLE_OPTS": "-Dorg.gradle.jvmargs='-Xmx3072m -XX:MaxMetaspaceSize=1024m -XX:+HeapDumpOnOutOfMemoryError'"
+        }
+      }
+    },
+    "development": {
+      "developmentClient": true,
+      "android": {
+        "buildType": "apk",
+        "gradleCommand": ":app:assembleDebug",
+        "withoutCredentials": true
+      }
+    },
+    "production": {
+      "android": {
+        "buildType": "app-bundle",
+        "withoutCredentials": true
+      }
+    }
+  },
+  "cli": {
+    "version": ">= 5.4.0",
+    "requireCommit": false,
+    "promptToConfigurePushNotifications": false
+  },
+  "submit": {
+    "production": {}
+  }
+} 
